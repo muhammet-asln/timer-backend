@@ -2,7 +2,7 @@ import { Sequelize } from 'sequelize';
 import dotenv from 'dotenv';
 
 // Load environment variables
-//dotenv.config();
+dotenv.config();
 
 // Check if DATABASE_URL is available
 if (!process.env.DATABASE_URL) {

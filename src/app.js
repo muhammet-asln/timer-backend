@@ -29,6 +29,7 @@ app.use('/api/rooms', roomRouter);
 
 
 app.get('/', (req, res) => {
+  
   res.send('Hello World!');
 });
 
